@@ -1,0 +1,25 @@
+.THIS .redColor svg{ 
+    fill :red;
+}
+.THIS .blackColor svg{ 
+    fill :black;
+}
+.THIS .redColor{
+    color :red;
+}
+.THIS .blackColor{
+    color:black;
+}
+.THIS .redColor a{
+    color :red;
+}
+.THIS .blackColor a{
+    color:black;
+}
+.THIS.header{
+ padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}

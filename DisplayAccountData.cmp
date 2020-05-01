@@ -1,0 +1,16 @@
+<aura:component controller="AccountCtrl">
+    
+    <aura:attribute name="columns" type="List" />
+    <aura:attribute name="data" type="Object" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <div class="header">
+        <h1>Conditionally add icon and style on record in Lightning datatable</h1>
+    </div>
+    <div class="slds-p-top_small slds-p-left_x-small">
+        <lightning:datatable  columns="{!v.columns}"
+                              data="{!v.data}"
+                              keyField="Id"
+                              hideCheckboxColumn="true"/>
+    </div>
+</aura:component>
